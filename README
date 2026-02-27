@@ -1,0 +1,18 @@
+## selfbot + bot = badges
+- use: {prefix}uid (Optional): Id user
+- Prefix: ! | ,, | $ | , 
+- Npm: npm install
+
+## To make it work
+- const BOT_TOKEN  = 'TOKEN_BOT';
+- const SELF_TOKEN = 'TOKEN_USER'; 
+
+## Creations and terms
+- terms: We are not responsible for accounts = Self bot: banned for excessive use of this scripts
+- credit: @infernidad
+- bio: https://myuser.gg/clarents
+
+
+## Note
+- This is a base so if you improve it it can be a unique command or system.
+- Remember that this is BETA, and must be improved to avoid abuse of the self and your account being banned.

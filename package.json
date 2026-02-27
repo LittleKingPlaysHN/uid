@@ -1,0 +1,15 @@
+{
+  "name": "uid-selfbot",
+  "version": "1.0.0",
+  "description": "Selfbot con info de usuario, Nitro, efectos y decoraciones",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "debug": "^4.4.3",
+    "discord.js": "^14.25.1",
+    "discord.js-selfbot-v13": "^3.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}
