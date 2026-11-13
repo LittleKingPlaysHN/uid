@@ -1,7 +1,7 @@
 # UID — Discord User Information
 
 <p align="center">
-  <img src="galery/4.PNG" width="600" alt="UID Preview">
+  <img src="galery/1.PNG" width="600" alt="UID Preview">
 </p>
 
 <p align="center">
