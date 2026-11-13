@@ -24,8 +24,8 @@
 ## Preview
 
 <p align="center">
-  <img src="galery/2.JPG" width="85%" alt="UID Preview 4">
-   <img src="galery/3.JPG" width="600" alt="UID Preview">
+  <img src="galery/2.JPG" width="85%" alt="UID Preview 2">
+   <img src="galery/3.JPG" width="600" alt="UID Preview 3">
 </p>
 
 ## Características
