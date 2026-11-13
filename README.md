@@ -1,5 +1,7 @@
 # UID — Discord User Information
 
+> read the English version → [README-EN.md](./README-EN.md)
+
 <p align="center">
   <img src="galery/1.PNG" width="600" alt="UID Preview">
 </p>
