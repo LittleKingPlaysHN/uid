@@ -1,73 +1,61 @@
 # UID — Discord User Information
 
-<p align="center">
+> Leer en español → [README.md](./README.md)
 
-<img src="galery/1.PNG" width="600" alt="UID Preview">
+<p align="center">
+  <img src="galery/1.JPG" width="600" alt="UID Preview">
 </p>
 
 <p align="center">
+  <strong>A more complete way to explore Discord profiles.</strong>
+  <br>
+  Look up user information, badges, Nitro, and the visual elements of their profiles.
+</p>
 
-<strong>A more complete way to explore Discord profiles.</strong>
-
-<br>
-View user information, badges, Nitro, and visuals on their profiles.
-
-</p> </p>
-
-<p align="center"> 
-<img src="https://img.shields.io/badge/version-1.0.0-blue" /> 
-<img src="https://img.shields.io/badge/status-BETA-orange" /> 
-<img src="https://img.shields.io/badge/Node.js-18%2B-green" /> 
-<img src="https://img.shields.io/badge/license-MIT-lightgrey" />
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue" />
+  <img src="https://img.shields.io/badge/status-BETA-orange" />
+  <img src="https://img.shields.io/badge/Node.js-18%2B-green" />
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey" />
 </p>
 
 ---
 
 ## Preview
 
-<p align="center"> 
-<img src="galery/4.PNG" width="85%" alt="UID Preview 4">
+<p align="center">
+  <img src="galery/2.JPG" width="45%" alt="UID Preview 2">
+  <img src="galery/3.jpg" width="45%" alt="UID Preview 3">
 </p>
 
-## Characteristics
+## Features
 
-- **User Information:** consult public profile information.
-- **Discord Badges:** Displays available badges.
-
-- **Nitro Statistics:** Information about Nitro seniority and levels.
-
-- **Profile Decorations:** Displays decorations and visual elements.
-
-- **Profile Effects:** Information about profile effects.
-
-- **Nameplates:** Displays nameplates.
-
-- **Server Information:** Information about seniority within the server when available.
-
-- **Flexible Prefixes:** Different prefixes to execute the command.
+- **User Information:** view public profile information.
+- **Discord Badges:** display of available badges.
+- **Nitro Statistics:** information about Nitro tenure and tiers.
+- **Profile Decorations:** look up decorations and visual elements.
+- **Profile Effects:** information about profile effects.
+- **Nameplates:** display of nameplates.
+- **Server Information:** how long the user has been in the server, when available.
+- **Flexible Prefixes:** multiple prefixes to run the command.
 
 ## Command
 
 | Command | Description |
+|---|---|
+| `!uid` | Look up your own profile |
+| `!uid @user` | Look up another user's profile |
+| `!uid ID` | Look up a profile by user ID |
+| `/uid @user` | Look up a profile using slash commands |
 
----|---|
-
-`!uid` | View your own profile |
-
-`!uid @user` | View another user's profile |
-
-`!uid ID` | View by user ID |
-
-**Available Prefixes:** `!`, `,,`, `$`, `,`
+**Available prefixes:** `!`, `,,`, `$`, `,`
 
 ## Installation
 
 ### Requirements
 
 - Node.js 18 or higher.
-
 - npm.
-
 - A configured Discord application.
 
 ### 1. Clone the repository
@@ -85,9 +73,13 @@ npm install
 
 ### 3. Configuration
 
-Configure credentials using environment variables. Do not publish tokens or credentials to the repository.
+Set up your credentials through environment variables. Do not publish tokens or credentials in the repository.
 
-### 4. Getting Started
+### 4. Register /uid
+
+Register the `/uid` slash command. It is only a command definition; `index.js` is what handles the response.
+
+### 5. Start
 
 ```bash
 npm start
@@ -102,41 +94,33 @@ npm start
 
 ## Testing
 
-The project requires automated testing to verify its internal functions.
+The project needs automated tests to verify its internal functions.
 
 Recommended tests include:
 
 - Converting milliseconds to readable time.
-
-- Calculating Nitro age.
-
+- Calculating Nitro tenure.
 - Identifying badges.
-
-- Handling profiles without additional information.
-
+- Handling profiles with no additional information.
 - Handling incomplete API responses.
-
-- Validating IDs and command inputs.
+- Validating IDs and command input.
 
 ## Warnings
 
 **UID is an experimental project in BETA.**
 
-The use of automation through user accounts (selfbots) is prohibited by the Discord Terms of Service and may result in the suspension of the accounts involved.
+Automating user accounts (selfbots) is prohibited by Discord's Terms of Service and may result in the suspension of the accounts involved.
 
-This repository is provided for educational and experimental purposes. Its functionality is not guaranteed, and its use with personal accounts is not recommended.
+This repository is provided for educational and experimental purposes. Its operation is not guaranteed, and using it with personal accounts is not recommended.
 
-## Contributions
+## Contributing
 
 Suggestions, bug reports, and improvements are welcome.
 
 1. Fork the repository.
-
 2. Create a branch for your changes.
-
-3. Implement your modifications.
-
-4. Submit a pull request.
+3. Make your modifications.
+4. Submit a Pull Request.
 
 ## Credits
 
@@ -148,7 +132,5 @@ Developed by **LittleKingPlaysHN**.
 ---
 
 <p align="center">
-
-Made with dedication for the Discord community.
-
+  Made with dedication for the Discord community.
 </p>
