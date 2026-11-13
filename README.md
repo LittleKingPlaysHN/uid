@@ -5,16 +5,16 @@
 </p>
 
 <p align="center">
-  **Una forma más completa de explorar perfiles de Discord.**
+  <strong>Una forma más completa de explorar perfiles de Discord.</strong>
   <br>
   Consulta información de usuarios, insignias, Nitro y elementos visuales de sus perfiles.
 </p>
 
 <p align="center">
-  ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-  ![Status](https://img.shields.io/badge/status-BETA-orange)
-  ![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
-  ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+  <img src="https://img.shields.io/badge/version-1.0.0-blue" />
+  <img src="https://img.shields.io/badge/status-BETA-orange" />
+  <img src="https://img.shields.io/badge/Node.js-18%2B-green" />
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey" />
 </p>
 
 ---
