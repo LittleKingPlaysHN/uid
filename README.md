@@ -3,7 +3,7 @@
 > read the English version → [README-EN.md](./README-EN.md)
 
 <p align="center">
-  <img src="galery/1.PNG" width="600" alt="UID Preview">
+  <img src="galery/1.JPG" width="600" alt="UID Preview">
 </p>
 
 <p align="center">
@@ -24,7 +24,8 @@
 ## Preview
 
 <p align="center">
-  <img src="galery/4.PNG" width="85%" alt="UID Preview 4">
+  <img src="galery/2.JPG" width="85%" alt="UID Preview 4">
+   <img src="galery/3.JPG" width="600" alt="UID Preview">
 </p>
 
 ## Características
@@ -45,6 +46,7 @@
 | `!uid` | Consulta tu propio perfil |
 | `!uid @usuario` | Consulta el perfil de otro usuario |
 | `!uid ID` | Consulta mediante ID de usuario |
+| `/uid @usuario` | Consulta mediante los slash comandos |
 
 **Prefijos disponibles:** `!`, `,,`, `$`, `,`
 
@@ -73,7 +75,11 @@ npm install
 
 Configura las credenciales mediante variables de entorno. No publiques tokens ni credenciales en el repositorio.
 
-### 4. Iniciar
+### 4. Registrar /uid
+
+registra el slash /uid el cual esta basio pero el index.js responderá por el
+
+### 5. Iniciar
 
 ```bash
 npm start
